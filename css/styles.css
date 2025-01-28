@@ -435,4 +435,8 @@ footer a {
     margin: auto;
   }
   /* NAVIGATION STUFF GOES HERE  */
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
