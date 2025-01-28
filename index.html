@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>West Lake Architecture</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body>
+<div id="headerWrapper">
+	<header>
+        <img src="images/logo-1x.png" alt="logo" width="50" height="50" srcset="images/logo-1x.png 1x, images/logo-2x.png 2x, images/logo-3x.png 3x">
+		<span>West Lake Architecture</span>
+	</header>
+</div><!-- end header wrapper -->
+
+    
+    
+<div id="navWrapper">
+    <nav>
+        <ul>
+            <li><a href="#">Clients</a></li>
+            <li class="active" ><a class="active" href="#">Services</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div> <!-- end nav wrapper -->
+
+<div id="mainWrapper">
+    <main>
+        <picture class="hero">
+            <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+            <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+            <img src="images/hero-large.webp" alt="skyscraper hero image" width="16" height="4">
+        </picture>
+        <h1>My Video With Captions</h1>
+        <video id="video" controls preload="metadata">
+            <source src="media/Lesson3-Trimmed-Handbrake.mp4" type="video/mp4" />
+            <source src="media/Lesson3-Trimmed-Handbrake.webm" type="video/webm" />
+            <track
+              label="English"
+              kind="subtitles"
+              srclang="en"
+              src="media/lesson3-en.vtt"
+              default />
+            <track
+              label="French"
+              kind="subtitles"
+              srclang="fr"
+              src="media/lesson3-fr.vtt" />
+          </video>
+          <details>
+            <summary>
+                Video Transcript
+            </summary>
+            <p>
+                For this video I thought I would just talk about something I've been super interested in lately. I have been listening to this musical a lot called epic the musical. This musical, it doesn't have any, like, stage performances yet it's just like a concept album. But basically it follows the story of The Odyssey it follows Odysseus starting with like the end of the Trojan War and then leaving, going to the island with the Cyclops and then you know leaving going to Aeolus's Sky Island getting the wind bag so they can make it home. But then his some of his crew sort of betray him and open the bag and so Poseidon gets revenge on them for disabling his son - one of the Cyclopes - and so he only has 40 men left cause Poseidon killed the rest of them and so then they go to Circe's Island and they get turned into pigs and then they go to the underworld and then they meet the sirens and deal with them and go through the layer of Scylla um and then Odysseus's crew betrays him and then they all end up dying except for Odysseus because he did not harm Helios's Immortal cattle um yeah and then Odysseus ends up on Calypso's Island for 10 years and finally he's able to leave and get back to his home Ithaca, take his take his throne back, and yeah.
+            </p>
+          </details>
+    </main>
+</div><!-- end main wrapper -->
+    
+<div id="footerWrapper">
+    <footer>
+        <p>&copy; <span id="year">x</span> &bull; Morgan Harris</p>
+    </footer>
+</div> <!-- end footer wrapper -->
+
+<script src="js/scripts.js"></script>
+   
+</body>
+</html> 
